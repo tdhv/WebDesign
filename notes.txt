@@ -1,0 +1,10 @@
+-> viewport meta tag is used to ensure the screen width is set to device width and content is rendered
+    with this width in mind. (responsive design)
+
+-> Responsive web design is about creating web sites which automatically adjust themselves to look good 
+    on all devices, from small phones to large desktops.
+
+-> bootstrap grid
+    - responsive
+    - mobile first
+    - fluid (adjust to device width)
