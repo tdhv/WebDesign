@@ -8,3 +8,14 @@
     - responsive
     - mobile first
     - fluid (adjust to device width)
+
+-> bootstrap style classes
+    - jumbotron
+    - container
+    - row
+    - col , col-sm/col-md/col-lg/col-xl
+    - offset-*
+    - align-self-center, justify-content-center, align-items-center
+    - order-sm-last, order-sm-first
+    - navbar, navbar-dark, navbar-expand-sm, navbar-brand, navbar-nav, mr-auto
+    - fixed-top/fixed-bottom
