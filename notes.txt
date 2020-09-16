@@ -19,4 +19,5 @@
     - order-sm-last, order-sm-first
     - navbar, navbar-dark, navbar-expand-sm, navbar-brand, navbar-nav, mr-auto
     - fixed-top/fixed-bottom
-    - blockquote, cite
+    - tables
+    - blockquote, cite, cards
