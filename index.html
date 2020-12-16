@@ -30,7 +30,7 @@
                     <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
                 </ul>
                 <span class="navbar-text">
-                    <a data-toggle="modal" data-target="#loginModal"><span class="fa fa-sign-in"></span> Login</a>
+                    <a id="loginBtn"><span class="fa fa-sign-in"></span> Login</a>
                 </span>
             </div>
         </div>
@@ -162,7 +162,7 @@
                     <img src="img/logo.png" class="img-fluid">
                 </div>
                 <div class="col-12 col-sm align-self-center">
-                    <a class="btn btn-sm btn-warning btn-block" data-toggle="modal" data-target="#reserveTable">Reserve a Table</a>
+                    <a class="btn btn-sm btn-warning btn-block" id="reserveTableBtn">Reserve a Table</a>
                 </div>
             </div>
         </div>
@@ -321,8 +321,15 @@
                     $('#carouselButton').children('span').addClass('fa-pause');
                  }
              });
+             $('#loginBtn').click(function(){
+                $('#loginModal').modal('show');
+             });
+             $('#reserveTableBtn').click(function(){
+                $('#reserveTable').modal('show');
+             });
          });
      </script>
 </body>
 
 </html>
+
